@@ -14,9 +14,6 @@ $(call inherit-product, vendor/tequila/config/common_full_phone.mk)
 # Inherit from miatoll device
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
-# Inherit Google Camera
-$(call inherit-product, vendor/xiaomi/miatoll-gcam/miatoll-gcam-vendor.mk)
-
 PRODUCT_NAME := tequila_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_MANUFACTURER := Xiaomi
