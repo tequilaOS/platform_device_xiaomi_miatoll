@@ -14,6 +14,9 @@ $(call inherit-product, vendor/tequila/config/common_full_phone.mk)
 # Inherit from miatoll device
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
+# tequilaOS props
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := tequila_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_MANUFACTURER := Xiaomi
