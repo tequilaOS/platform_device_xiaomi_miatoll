@@ -35,13 +35,9 @@ PRODUCT_PACKAGES += \
     libbatterylistener \
     libcomprcapture \
     libexthwplugin \
-    libhdmiedid \
-    libhfp \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libsndmonitor \
-    libspkrprot \
     libtinycompress \
     libvolumelistener
 
