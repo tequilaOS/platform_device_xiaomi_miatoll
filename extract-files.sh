@@ -89,6 +89,9 @@ function blob_fixup() {
         vendor/etc/libnfc-nci.conf)
             sed -i "s/\/data\/nfc/\/data\/vendor\/nfc/g" "${2}"
             ;;
+        vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy)
+            echo 'madvise: 1' >> ${2}
+            ;;
     esac
 }
 
