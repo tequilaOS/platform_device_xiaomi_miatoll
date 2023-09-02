@@ -88,6 +88,10 @@ function blob_fixup() {
         vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy)
             echo 'madvise: 1' >> ${2}
             ;;
+        # Fix NFC storage path
+        vendor/etc/libnfc-nci.conf)
+            sed -i "s/\/data\/nfc/\/data\/vendor\/nfc/g" "${2}"
+            ;;
     esac
 }
 
