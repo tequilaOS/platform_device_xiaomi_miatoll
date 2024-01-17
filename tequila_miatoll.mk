@@ -15,6 +15,7 @@ $(call inherit-product, vendor/tequila/config/common_full_phone.mk)
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
 # tequilaOS
+TARGET_SUPPORTS_BLUR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 TARGET_BOOT_ANIMATION_RES := 1080
