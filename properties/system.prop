@@ -4,9 +4,6 @@ ro.apex.updatable=false
 # Audio
 audio.offload.min.duration.secs=30
 
-# Blur
-ro.surface_flinger.supports_background_blur=0
-
 # Brightness Curve
 persist.sys.brightness.low.gamma=true
 
